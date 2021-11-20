@@ -2,7 +2,7 @@
 require __DIR__ ."/vendor/autoload.php";
 
 
-use Source\Models\ProccessPayment;
+use Source\Controller\ProccessPayment;
 
 // instancia a class ProccessPayment
 $pay = new ProccessPayment();
