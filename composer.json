@@ -1,0 +1,27 @@
+{
+    "name": "railan-bernardo/mercadopago",
+    "description": "Integração com o mercado pago SDK",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Railan Bernado",
+            "email": "railabernardo2016@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Boot/Config.php"
+        ]
+    },
+    "require": {
+        "mercadopago/dx-php": "^2.4"
+    }
+}
